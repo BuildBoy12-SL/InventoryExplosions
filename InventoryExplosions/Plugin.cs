@@ -20,13 +20,13 @@ namespace InventoryExplosions
         private EventHandlers eventHandlers;
 
         /// <inheritdoc />
-        public override string Author { get; } = "Build";
+        public override string Author => "Build";
 
         /// <inheritdoc />
-        public override PluginPriority Priority { get; } = PluginPriority.Lower;
+        public override PluginPriority Priority => PluginPriority.Lower;
 
         /// <inheritdoc />
-        public override Version RequiredExiledVersion { get; } = new Version(4, 2, 3);
+        public override Version RequiredExiledVersion { get; } = new Version(5, 0, 0);
 
         /// <inheritdoc />
         public override Version Version { get; } = new Version(1, 0, 0);
